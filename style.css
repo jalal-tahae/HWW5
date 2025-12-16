@@ -1,32 +1,62 @@
 * {
-    background-color: blueviolet;
-    font-size: larger;
-    vertical-align: top;
+    margin: 0px;
 }
 
 .container {
-    display: inline-block;
-    width: 800;
+    width: 800px;
     height: 600px;
-    margin: 50px auto;
+    margin: 0 auto;
+}
 
-    background-color: aqua;
+i .fa {
+    display: inline;
+}
+
+.inline {
+    display: inline;
 }
 
 .content {
-    display: inline;
-
-
+    width: 700px;
+    margin: 0 auto;
 }
 
-.js>img {
+.js img {
     width: 200px;
 }
 
 .fonts {
-    font-size: 100px;
+    font-size: 200px;
+    color: green;
+}
+
+#css {
+    color: red;
 }
 
 body {
-    background-color: red;
+    background-color: burlywood;
+}
+
+.html,
+.html p {
+    background-color: rgba(255, 0, 0, 0.644);
+}
+
+.css,
+.css p {
+    background-color: rgb(91, 73, 248);
+}
+
+.js,
+.js p {
+    background-color: yellow;
+}
+
+.bs p {
+    background-color: blueviolet;
+}
+
+.php p {
+    background-color: gray;
 }
